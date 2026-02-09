@@ -25,3 +25,23 @@
     >
         </div>
     </div>
+
+
+.md-visable {
+    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+    .md-visable {
+    visibility: website;
+    color:red;
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    .md-visable {
+    color:blue;
+    }
+}
